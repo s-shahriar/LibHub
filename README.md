@@ -6,16 +6,46 @@
 - Password: 123Qwe
 ```
 
-**CAUTION: GitHub login is working, but do not login via GitHub, as it will break some features.**
-
----
-
 # Welcome to Lib-Hub
 
 ## About Lib-Hub
 Lib-Hub is a sophisticated library management platform designed to streamline the process of accessing and managing a diverse collection of books. With Lib-Hub, users can explore an extensive catalogue, borrow books, return them after reading, and enjoy a seamless reading experience tailored to their preferences.
 
 **Live Link**: [Lib-Hub](https://libhub-46f8c.web.app/)
+
+## Installation
+
+To install the LibHub project on your local machine, follow these steps:
+
+1. **Clone the Repository**: Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/s-shahriar/LibHub-Client.git
+   ```
+
+2. **Navigate to the Project Directory**: Change to the project directory:
+   ```
+   cd lib-hub
+   ```
+
+3. **Install Dependencies**: Install the required dependencies for both the client and server:
+   ```
+   npm install
+   ```
+
+4. **Set Up Environment Variables**: Create a `.env` file in the server directory and add your environment variables:
+   ```
+   PORT=5000
+   MONGO_URI=your_mongo_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. **Start the Development Server**: Run the following command to start the development server:
+   ```
+   npm start
+   ```
+
+6. **Access the Application**: Open your browser and go to `http://localhost:3000` to view the application.
+
 
 ### Features
 - **Book Catalogue**: Browse through a comprehensive catalogue of books available in the library.
