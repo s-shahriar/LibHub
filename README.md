@@ -41,7 +41,7 @@ To install the LibHub project on your local machine, follow these steps:
 
 5. **Start the Development Server**: Run the following command to start the development server:
    ```
-   npm start
+   npm run dev
    ```
 
 6. **Access the Application**: Open your browser and go to `http://localhost:3000` to view the application.
