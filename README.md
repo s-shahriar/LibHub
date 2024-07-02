@@ -19,7 +19,7 @@ To install the LibHub project on your local machine, follow these steps:
 
 1. **Clone the Repository**: Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/s-shahriar/LibHub-Client.git
+   git clone https://github.com/s-shahriar/LibHub.git
    ```
 
 2. **Navigate to the Project Directory**: Change to the project directory:
